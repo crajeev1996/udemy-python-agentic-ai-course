@@ -1,1 +1,58 @@
+# Environment variables
 .env
+.env.*
+
+# Virtual environments
+.venv
+venv
+env
+ENV
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Jupyter notebooks
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+*.egg
+wheels/
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+
+# IDEs
+.vscode/
+.idea/
+*.code-workspace
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Model weights and large files
+*.h5
+*.pkl
+*.pt
+*.pth
+*.ckpt
+
+# Data files
+*.csv
+*.tsv
+*.parquet
+*.zip
+*.tar.gz
